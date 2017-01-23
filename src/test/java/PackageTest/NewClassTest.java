@@ -17,7 +17,7 @@ public class NewClassTest {
     public void f() {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   driver.findElement(By.id("sb_ifc0")).click();
-  driver.findElement(By.id("sb_ifc0")).sendKeys("selenium");
+  driver.findElement(By.id("sb_ifc0")).sendKeys("Rest vs postman");
   driver.findElement(By.name("btnG")).click();
   System.out.println("Element searched");
   }
