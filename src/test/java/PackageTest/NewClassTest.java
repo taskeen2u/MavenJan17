@@ -15,6 +15,9 @@ public class NewClassTest {
 	WebDriver driver;
 	@Test
     public void f() {
+		
+		System.out.println("First change");
+		System.out.println("Second change");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   driver.findElement(By.id("sb_ifc0")).click();
   driver.findElement(By.id("sb_ifc0")).sendKeys("Rest vs postman");
